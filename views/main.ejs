@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <title>File Metadata Microservice</title>
+        <link href="css/styles.css" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+    </head>
+    <body>
+        <div class = "jumbotron">
+        <h1 class = "text-center">FreeCodeCamp Basejump: File Metadata Microservice</h1>
+        <h2 class= "text-center">Upload a file and receive the size in bytes</h2>
+        <div class = "row">
+            <div class = "col-xs-10 col-xs-offset-1">
+                <form action="/upload" method="POST" enctype="multipart/form-data">
+                  Select a file to upload:
+                  <input type="file" name="myFile"> 
+                  <input type="submit" value="Upload File">
+                </form>
+                
+            </div>
+        </div>
+        </div>
+        
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+        <script src="javascripts/main.js"></script>
+    </body>
+</html>
